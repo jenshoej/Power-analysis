@@ -34,7 +34,13 @@ Parameters:
 
 Example:
 ```python 
-# Plot one week of data" "columns = ['SolarPower', 'OnshoreWindPower', 'OffshoreWindPower']" "plot_power_generation(df, " "                     columns_to_plot=columns," "                     start='2024-01-01', " "                     end='2024-01-07'," "                     plot_load=True)"
+# Plot one week of data
+columns = ['SolarPower', 'OnshoreWindPower', 'OffshoreWindPower']
+plot_power_generation(df,
+                      columns_to_plot=columns,
+                      start='2024-01-01',
+                      end='2024-01-07',
+                      plot_load=True)
 ```
 
 ## Available Data Columns
