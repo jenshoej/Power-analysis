@@ -1,8 +1,8 @@
-#Tools for fetching and visualizing Danish power system data from Energinet's API.
+# Tools for fetching and visualizing Danish power system data from Energinet's API.
 
 ## Functions
 
-### `fetch_danish_energy_data(start_date, end_date)`
+### `load_power_data(start_date, end_date)`
 
 Fetches power generation and consumption data from Energinet's API.
 
@@ -16,7 +16,7 @@ A pandas DataFrame with hourly data for different generation types and total loa
 **Example:**
 
 ```python
-df = fetch_danish_energy_data('2024-01-01', '2024-02-01')
+df = load_power_data('2024-01-01', '2024-02-01')
 ```
 
 ### plot_power_generation(df, columns_to_plot, scale_factors=None, start=None, end=None, title="Danmarks elsystem", plot_load=True)
@@ -33,7 +33,9 @@ Parameters:
 - plot_load: Boolean to include load curve (default True)"
 
 Example:
-```python # Plot one week of data" "columns = ['SolarPower', 'OnshoreWindPower', 'OffshoreWindPower']" "plot_power_generation(df, " "                     columns_to_plot=columns," "                     start='2024-01-01', " "                     end='2024-01-07'," "                     plot_load=True)"```
+```python 
+# Plot one week of data" "columns = ['SolarPower', 'OnshoreWindPower', 'OffshoreWindPower']" "plot_power_generation(df, " "                     columns_to_plot=columns," "                     start='2024-01-01', " "                     end='2024-01-07'," "                     plot_load=True)"
+```
 
 ## Available Data Columns
 
