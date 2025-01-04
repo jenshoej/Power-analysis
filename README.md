@@ -19,7 +19,7 @@ A pandas DataFrame with hourly data for different generation types and total loa
 df = load_power_data('2024-01-01', '2024-02-01')
 ```
 
-### plot_power_generation(df, columns_to_plot, scale_factors=None, start=None, end=None, title="Danmarks elsystem", plot_load=True)
+### `plot_power_generation(df, columns_to_plot, scale_factors=None, start=None, end=None, title="Danmarks elsystem", plot_load=True)`
 
 Creates a stacked area plot of power generation with optional load curve.
 
