@@ -1,5 +1,3 @@
-Let me write out the README without any formatting, so you can directly copy it. Every quoted line should be on its own line in the README.md file:
-
 "# Danish Power System Analysis"
 ""
 "Tools for fetching and visualizing Danish power system data from Energinet's API."
