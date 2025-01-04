@@ -38,10 +38,10 @@ Example:
 columns = ['SolarPower', 'OnshoreWindPower', 'OffshoreWindPower']
 
 scale_factors = {
-    'OnshoreWindPower': 1.5,
-    'OffshoreWindPower': 1.5, 
-    'SolarPower': 2.5,
-    'TotalLoad': 1.5}
+    'OnshoreWindPower':   1.5,
+    'OffshoreWindPower':  1.5, 
+    'SolarPower':         2.5,
+    'TotalLoad':          1.5}
 
 plot_power_generation(df,
                       columns_to_plot=columns,
