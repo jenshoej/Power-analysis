@@ -54,6 +54,17 @@ Generation types that can be plotted:
 - Biomass (Biomasse)
 - FossilOil (Olie)
 
+Load can be plotted with TotalLoad
+
+Transmission data is available in the dataframe, but cannot yet be plotted with the here routine (will be available in the future).
+The available dataseries are
+
+- ExchangeGreatBritain (England)
+- ExchangeNordicCountries (Sverige og Norge)
+- ExchangeContinent (Tyskland og Holland)
+- ExchangeGreatBelt (Storebælt)
+
+
 Danish translations are shown in parentheses and will appear in plot legends.
 
 ## Requirements
