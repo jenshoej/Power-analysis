@@ -45,7 +45,7 @@ scale_factors = {
 
 plot_power_generation(df,
                       columns_to_plot=columns,
-                      scale_factors=scale_factors
+                      scale_factors=scale_factors,
                       start='2024-01-01',
                       end='2024-01-07',
                       plot_load=True)
