@@ -12,8 +12,8 @@ Parameters:
 
 Returns a pandas DataFrame with hourly data for different generation types and total load."
 
-Example:"
-python" "df = fetch_danish_energy_data('2024-01-01', '2024-02-01')" ""
+Example:
+python df = fetch_danish_energy_data('2024-01-01', '2024-02-01')
 
 ### plot_power_generation(df, columns_to_plot, scale_factors=None, start=None, end=None, title="Danmarks elsystem", plot_load=True)"
 
