@@ -1,7 +1,9 @@
 "# Danish Power System Analysis"
-""
+
 "Tools for fetching and visualizing Danish power system data from Energinet's API."
-""
+
+
+
 "## Functions"
 ""
 "### fetch_danish_energy_data(start_date, end_date)"
