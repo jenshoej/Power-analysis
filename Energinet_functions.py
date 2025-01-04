@@ -90,7 +90,8 @@ def plot_power_system(df, columns_to_plot, scale_factors=None, start=None, end=N
         'FossilGas': '#FF7F50',           # Coral
         'FossilHardCoal': '#808080',      # Gray
         'Biomass': '#90EE90',             # Light Green
-        'FossilOil': '#8B4513'            # Brown
+        'FossilOil': '#8B4513',           # Brown
+        'Waste' : 'darkred'
     }
 
     # Danish name mapping
@@ -101,7 +102,8 @@ def plot_power_system(df, columns_to_plot, scale_factors=None, start=None, end=N
         'Biomass': 'Biomasse',
         'FossilHardCoal' : 'Kul',
         'FossilGas' : 'Gas',
-        'FossilOil' : 'Olie'
+        'FossilOil' : 'Olie',
+        'Waste' : 'Affald'
     }
     
     # Create a copy and apply scaling if provided
