@@ -36,8 +36,17 @@ Example:
 ```python 
 # Plot one week of data
 columns = ['SolarPower', 'OnshoreWindPower', 'OffshoreWindPower']
+
+scale_factors = {
+    'OnshoreWindPower':1.5,
+    'OffshoreWindPower':1.5, 
+    'SolarPower':2,
+    'TotalLoad':1.5
+}
+
 plot_power_generation(df,
                       columns_to_plot=columns,
+                      scale_factors=scale_factors
                       start='2024-01-01',
                       end='2024-01-07',
                       plot_load=True)
