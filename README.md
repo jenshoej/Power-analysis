@@ -1,6 +1,6 @@
-"# Danish Power System Analysis"
+# Danish Power System Analysis"
 
-"Tools for fetching and visualizing Danish power system data from Energinet's API."
+Tools for fetching and visualizing Danish power system data from Energinet's API.
 
 
 
