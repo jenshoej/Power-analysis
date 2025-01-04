@@ -24,12 +24,12 @@ df = load_power_data('2024-01-01', '2024-02-01')
 Creates a stacked area plot of power generation with optional load curve.
 
 Parameters:
-- df: DataFrame from fetch_danish_energy_data"
-- columns_to_plot: List of generation types to include in plot"
-- scale_factors: Optional dictionary to scale specific generation types, e.g. {'SolarPower': 1.5}"
-- start: Start date for plot in format 'YYYY-MM-DD'"
-- end: End date for plot in format 'YYYY-MM-DD'"
-- title: Plot title"
+- df: DataFrame from fetch_danish_energy_data
+- columns_to_plot: List of generation types to include in plot
+- scale_factors: Optional dictionary to scale specific generation types, e.g. {'SolarPower': 1.5}
+- start: Start date for plot in format 'YYYY-MM-DD'
+- end: End date for plot in format 'YYYY-MM-DD'
+- title: Plot title
 - plot_load: Boolean to include load curve (default True)"
 
 Example:
