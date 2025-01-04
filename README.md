@@ -1,16 +1,15 @@
-# Danish Power System Analysis"
+## Danish Power System Analysis Tool
 
 Tools for fetching and visualizing Danish power system data from Energinet's API.
 
 
+## Functions
 
-"## Functions"
-""
-"### fetch_danish_energy_data(start_date, end_date)"
-""
-"Fetches power generation and consumption data from Energinet's API."
-""
-"Parameters:"
+### fetch_danish_energy_data(start_date, end_date)
+
+Fetches power generation and consumption data from Energinet's API.
+
+Parameters:
 "- start_date: Start date in format 'YYYY-MM-DD'"
 "- end_date: End date in format 'YYYY-MM-DD'"
 ""
@@ -46,11 +45,11 @@ Tools for fetching and visualizing Danish power system data from Energinet's API
 "- Biomass (Biomasse)"
 "- FossilOil (Olie)"
 ""
-"Danish translations are shown in parentheses and will appear in plot legends."
-""
-"## Requirements"
-"- pandas"
-"- numpy"
-"- matplotlib"
-"- requests"
-""
+Danish translations are shown in parentheses and will appear in plot legends.
+
+## Requirements
+- pandas
+- numpy
+- matplotlib
+- requests
+
