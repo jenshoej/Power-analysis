@@ -4,7 +4,7 @@
 
 ### `load_power_data(start_date, end_date)`
 
-Fetches power generation and consumption data from Energinet's API.
+Fetches power generation, consumption and transmission data from Energinet's API.
 
 **Parameters:**
 - `start_date`: Start date in format `'YYYY-MM-DD'`
